@@ -3,6 +3,7 @@
 function insert (num) {
     document.form.textview.value += num;
 }
+
 function clean () {
     document.form.textview.value = '';
 }
@@ -19,28 +20,3 @@ function equal () {
         document.form.textview.value = eval(temp)
     }
  }
- 
-
-
-
-
-
-
-// function clearDisplay() {
-//     document.getElementById('display').value = '';
-// }
-
-// function calculate() {
-//     var displayValue = document.getElementById("display").value;
-//     var result;
-
-//     try {
-//         result = eval(displayValue);
-//         if (isNaN(result) || !isFinite(result)) {
-//             throw "Ошибка вычисления";
-//         }
-//         document.getElementById("display").value = result;
-//     } catch (error) {
-//         document.getElementById("display").value = "Ошибка: " + error;
-//     }
-// }
